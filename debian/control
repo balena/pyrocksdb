@@ -10,7 +10,7 @@ X-Python-Version: >= 2.6
 
 Package: python-rocksdb
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}
+Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
 Description: Python bindings for RocksDB
  RocksDB is an embeddable persistent key-value store for fast storage. RocksDB
  can also be the foundation for a client-server database but our current focus
