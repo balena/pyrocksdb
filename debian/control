@@ -1,0 +1,19 @@
+Source: python-rocksdb
+Section: python
+Priority: optional
+Maintainer: G. B. Versiani <guibv@yahoo.com>
+Build-Depends: python-all (>= 2.6.6-3), debhelper (>= 7)
+Standards-Version: 3.9.2
+Homepage: http://github.com/stephan-hof/pyrocksdb
+Vcs-Git: http://github.com/stephan-hof/pyrocksdb.git
+X-Python-Version: >= 2.6
+
+Package: python-rocksdb
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Python bindings for RocksDB
+ RocksDB is an embeddable persistent key-value store for fast storage. RocksDB
+ can also be the foundation for a client-server database but our current focus
+ is on embedded workloads.
+ .
+ This allows you to get access to RocksDB instances from Python.
