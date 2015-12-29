@@ -3,7 +3,7 @@ Section: python
 Priority: optional
 Maintainer: G. B. Versiani <guibv@yahoo.com>
 Build-Depends: python-all (>= 2.6.6-3), debhelper (>= 7)
-Standards-Version: 3.9.2
+Standards-Version: 3.9.5
 Homepage: http://github.com/stephan-hof/pyrocksdb
 Vcs-Git: http://github.com/stephan-hof/pyrocksdb.git
 X-Python-Version: >= 2.6
