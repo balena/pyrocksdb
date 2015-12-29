@@ -1,4 +1,4 @@
-python-rocksdb (0.5) unstable; urgency=medium
+python-pyrocksdb (0.5) unstable; urgency=medium
 
   * Initial release.
 
